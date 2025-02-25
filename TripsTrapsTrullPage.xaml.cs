@@ -30,6 +30,7 @@ public partial class TripsTrapsTrullPage : ContentPage
                     Text = "",
                     FontSize = 20,
                     FontFamily = "Luismi Murder 400.ttf",
+                    FontAttributes = FontAttributes.Bold,
                     HorizontalOptions = LayoutOptions.Center,
                     VerticalOptions = LayoutOptions.Center
                 };
@@ -37,7 +38,7 @@ public partial class TripsTrapsTrullPage : ContentPage
                 frames[i, j] = new Frame
                 {
                     BorderColor = Color.FromArgb("#F08080"),
-                    BackgroundColor = Color.FromArgb("#FFF0F5"), 
+                    BackgroundColor = Color.FromArgb("#FFF0F5"),
                     Content = labels[i, j]
                 };
 
@@ -50,6 +51,8 @@ public partial class TripsTrapsTrullPage : ContentPage
             Text = "Kes on esimene?",
             BackgroundColor = Color.FromArgb("#FFE4E1"),
             TextColor = Color.FromArgb("#FF0000"),
+            FontFamily = "Luismi Murder 400.ttf",
+            FontAttributes = FontAttributes.Bold,
             FontSize = 20,
             BorderWidth = 2,
             BorderColor = Color.FromArgb("#CD5C5C"),
@@ -62,6 +65,8 @@ public partial class TripsTrapsTrullPage : ContentPage
             Text = "Uus mäng",
             BackgroundColor = Color.FromArgb("#FFE4E1"),
             TextColor = Color.FromArgb("#FF0000"),
+            FontFamily = "Luismi Murder 400.ttf",
+            FontAttributes = FontAttributes.Bold,
             FontSize = 20,
             BorderWidth = 2,
             BorderColor = Color.FromArgb("#CD5C5C"),
